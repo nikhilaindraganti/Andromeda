@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    background-color: #333; /* Dark gray header */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #fff; /* White background for sections */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+section h2 {
+    color: #333; /* Dark gray heading */
+    border-bottom: 2px solid #333; /* Dark gray underline */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333; /* Dark gray footer */
+    color: #fff; /* White text */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Rainbow colors for text */
+h1, h2, p {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Rainbow colors for section backgrounds */
+section:nth-child(odd) {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
